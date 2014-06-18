@@ -1,6 +1,6 @@
 SpotSummerSchool 2014 
 ================
-  Uloha 1: 
+  #Uloha 1: 
   
 Anagram slova je nové slovo, ktoré vznikne poprehadzovaním písmen pôvodného slova.
 Napíš program, ktorý pre zadané slovo a zoznam kanditátov vráti slová, ktoré su anagramom daného slova.
