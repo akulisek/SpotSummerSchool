@@ -48,7 +48,7 @@ public class Anagram {
 	      BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 	      List<String> words = new ArrayList<String>(); // list of words on input
 	      
-	      System.out.println("Anagram:");
+	      System.out.println("Write word:");
 	      mainword = stdin.readLine();  // read the word
 	      
 	      System.out.println("Set of words:");
