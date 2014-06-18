@@ -25,7 +25,7 @@ public class Anagram {
 		   str1Array[(int)c]++;          // increment # of occurrences
 		   //System.out.println("Debug: str1 char:"+c+" #:"+str1Array[(int)c]);  // debug output
 		}
-		for (i=0;i<str1.length();i++)
+		for (i=0;i<str2.length();i++)
 		{
 		   c = str2.charAt(i);           // get char at certain position
 		   c = Character.toLowerCase(c); // if anagram is not case sensitive
