@@ -15,4 +15,4 @@ Navrhni dátový model pre elektronický obchod, ktorý predáva produkty. Produ
 Nakresli a vysvetli dátový model (tabuľky, prepojenia a stĺpce) pre takýto e-shop.
 
 ###Riešenie: 
-![](https://www.dropbox.com/s/ztqr118t4wn429r/KonvoluciaMPI.png)
+![](https://dl-web.dropbox.com/get/KonvoluciaMPI.png?_subject_uid=55545989&w=AABEy6C-tHs-Fq_cvLqRhPNL1FBZPmDsnIIjAGE11JRDow)
