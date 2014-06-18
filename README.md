@@ -7,5 +7,8 @@ Napíš program, ktorý pre zadané slovo a zoznam kanditátov vráti slová, kt
 Napríklad pre slovo "listen" a zoznam kandidátov ["enlists", "google", "inlets", "banana"] program vráti zoznam ["inlets"].
 Pokús sa algoritmus hľadania anagramov optimalizovať tak, aby bol čo najefektívnejší a vysvetli aké optimalizácie si použil a prečo.
 
+#Riešenie: 
+ Anagrams.java
+ 
 ##Úloha 2:
 ![](https://dl.dropboxusercontent.com/u/55261792/spot_uloha2.png)
