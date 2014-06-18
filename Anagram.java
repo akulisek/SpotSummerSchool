@@ -43,7 +43,7 @@ public class Anagram {
 	
 	public static void main(String[] args) throws IOException {
 		
-		  String mainword;
+	      String mainword;
 	      String line;
 	      BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 	      List<String> words = new ArrayList<String>(); // list of words on input
@@ -62,8 +62,8 @@ public class Anagram {
 	      for (String s: words) // for every loaded word, check whether it is an anagram 
 	      {
 	    	  if (isAnagram(mainword,s))
-	    		  System.out.print(" ["+s+"]");
+	    		  System.out.print("["+s+"] ");
 	      }
 	      System.out.println("\nEnd of program");
-		}
+       }
 }
