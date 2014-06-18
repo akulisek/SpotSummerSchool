@@ -10,6 +10,10 @@ Pokús sa algoritmus hľadania anagramov optimalizovať tak, aby bol čo najefek
 ###Riešenie: 
  Anagrams.java
  
+Algoritmus funguje na princípe porovnávania počtu výskytov jednotlivých znakov dvoch slov (predpoklad je, že používateľ môže zadať slovo skladajúce sa zo znakov, ktoré patria do ASCII tabuľky). Algoritmus využíva dve jednoduché hashmapy(pole) na ukladanie výskytov jednotlivých znakov slova(kľúč je ASCII hodnota znaku, hodnota je počet výskytov).Najprv používateľ zadá slovo, ku ktorému budeme potenciálne anagramy porovnávať, a potom zadá ľubovoľný počet slov, každé na vlastný riadok, pričom túto množinu slov uzavrie prázdnym riadkom po zadaní posledného slova. Program vyhodnotí slovo po slove, či sa jedná o anagram, alebo nie, ak áno, tak daný anagram rovno vypíše na výstup a pokračuje takto až po posledné zadané slovo z množiny slov.
+
+Časová zložitosť algoritmu je O(N), priestorová zložitosť je O(1), keďže hash mapy budú mať vždy rovnakú veľkosť(256) a do každého volania vstupujú dve slová.
+ 
 ##Úloha 2:
 Navrhni dátový model pre elektronický obchod, ktorý predáva produkty. Produkty majú názov, popis a cenu. Objednávka obsahuje zoznam zákazníkom vybraných produktov a ich množstvo. Zákazník je identifikovaný emailovou adresou. Obchod ponúka aj zľavy cez zľavové kúpóny, ktoré je možné použiť na nákupy a je vždy vyjadrený percentuálnou hodnotou (napr. 5% zľava). Zľavový kupón je identifikovaný kódom (napr. SALE2014) a môže byť použitý len limitovaný čas a limitovaný počet krát. Zoznam objednávok má slúžiť ako evidencia histórie nákupov pre ekonomické oddelenie. V návrhu počítajte s tým, že ceny produktov sa časom zvyknú meniť.
 Nakresli a vysvetli dátový model (tabuľky, prepojenia a stĺpce) pre takýto e-shop.
