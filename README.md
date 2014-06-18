@@ -8,4 +8,4 @@ Napríklad pre slovo "listen" a zoznam kandidátov ["enlists", "google", "inlets
 Pokús sa algoritmus hľadania anagramov optimalizovať tak, aby bol čo najefektívnejší a vysvetli aké optimalizácie si použil a prečo.
 
 ##Úloha 2:
-![](https://www.dropbox.com/s/ztqr118t4wn429r/KonvoluciaMPI.png?m=)
+![](https://dl.dropboxusercontent.com/u/55261792/spot_uloha2.png)
