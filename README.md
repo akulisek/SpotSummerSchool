@@ -20,3 +20,8 @@ Nakresli a vysvetli dátový model (tabuľky, prepojenia a stĺpce) pre takýto 
 
 ###Riešenie: 
 ![](https://dl.dropboxusercontent.com/u/55545989/SpotSummerSchoolESHOP.png)
+
+Obrázok zobrazuje mnou navrhnutý dátový model na základe vyššie uvedenej úlohy.
+Atribúty tried majú určený aj dátový typ(pre lepšiu orientáciu v modeli) napísaný veľkými písmenami.
+Trieda Order predstavuje objednávku ako požiadavku zákazníka na eshop. Objednať môže zákazník jeden alebo položiek(OrderedItem), každý z nich v rôznej kvantite. Položky sa priamo vzťahujú k produktom, ktoré eshop ponúka. Každý z produktov môže mať počas histórie obchodu niekoľko cien, a aby sme ich čo najlepšie evidovali, namodelovaná bola trieda Price. Tá umožňuje sledovať históriu cien daného produktu.
+Na objednávky je taktiež možné uplatniť zľavové kupóny, avšak na jednu objednávku maximálne jeden kupón.
